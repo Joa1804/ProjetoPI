@@ -1,8 +1,8 @@
 <?php
 // Dados dinâmicos que podem vir de um banco de dados ou outra fonte
 $pageData = [
-    'title' => 'Página de Detalhes',
-    'subtitle' => 'Informações completas sobre o item selecionado',
+    'title' => 'Sobre Educa tech',
+    'subtitle' => 'educa teach é um projeto de pi, do grupo da lusoft.',
     'content' => 'Esta página foi acessada a partir de um dos cards da página principal. Aqui você pode exibir conteúdo detalhado sobre o item selecionado.',
     'relatedItems' => [
         ['title' => 'Item Relacionado 1', 'link' => 'item1.php'],
@@ -11,7 +11,8 @@ $pageData = [
     ],
     'breadcrumb' => [
         ['text' => 'Página Principal', 'url' => 'index.php'],
-        ['text' => 'Página Atual', 'url' => '']
+        ['text' => 'Página Atual', 'url' => ''],
+        ['text' => 'Página incricao', 'url' => 'incricao.php']
     ]
 ];
 ?>
